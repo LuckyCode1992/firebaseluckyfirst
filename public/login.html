@@ -9,6 +9,47 @@
     <script src="/__/firebase/8.9.0/firebase-app.js"></script>
     <script src="/__/firebase/8.9.0/firebase-auth.js"></script>
     <script src="/__/firebase/init.js"></script>
+    <style>
+        * {
+            margin: 0px;
+        }
+        
+        h1 {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 56px;
+            line-height: 64px;
+            /* or 114% */
+            text-align: center;
+            /* black */
+            color: #323338;
+        }
+        
+        h2 {
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 28px;
+            /* or 165% */
+            text-align: center;
+            /* black */
+            color: #323338;
+        }
+        
+        a {
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 28px;
+            /* or 165% */
+            text-decoration-line: underline;
+            /* black */
+            color: #323338;
+        }
+    </style>
 
     <script type="text/javascript">
         function signInWithEmailPassword(userName, pwd) {
@@ -47,29 +88,28 @@
 
 </head>
 
-<body>
+<body style="background-color: #E8ECFD;">
 
-    <div style="width: 90%;height: 720px; background-color:white; align-content: center; margin: 20px auto">
+    <div style="width: 90%;height: 720px; background-color:#E8ECFD; align-content: center; margin: 20px auto">
 
-        <div style="display: flex; justify-content: flex-start;">
-            <p style="color:black ;font-size: 20pt;  background-color: white;">Lucky</p>
-            <div style="flex: 1;"></div>
-            <p style="color:black ;font-size: 20pt; background-color: white;">About</p>
-            <p style="color:black ;font-size: 20pt; background-color: white; margin-left: 50px;">Featured Works
-            </p>
-        </div>
-        <div style="margin-top: 100px;width: 100%;text-align: center;">
-            <p style="width: auto; font-size: 50px;"> This content is protected.</p>
-            <input type="password" style="width: 300px;height: auto;font-size: 30px;margin-top: 30px;" id="pwd" />
-            <br />
-            <button style="width: 300px; height: auto; font-size: 30px; margin-top: 30px;" type="button" id="login" onclick="loginIn(this)">click</button>
+        <div style="margin-top: 190px;width: 100%;text-align: center;">
+            <img src="images/Frame.png">
+            <h1> This content is protected.</h1>
+            <h2>To view, please enter the password.</h2>
+            <div style="width: auto;height: 56px;font-size: 30px;margin-top: 130px;">
+                <input type="password" style="width: 700px;height: 56px;font-size: 30px;" id="pwd" />
+                <div style="width: 100px;height: 56px; position:relative;left: 900px;top: -56px;" id="login" onclick="loginIn(this)">
+                    <img src="images/right_go.png">
+                </div>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <a href="">Don’t have the password, contact me</a>
+            </div>
+
+            <!-- <button style="width: 700px; height: 56px; font-size: 30px; margin-top: 30px;" type="button" id="login" onclick="loginIn(this)">click</button> -->
         </div>
     </div>
-
-
-
-
-
 
 
 </body>
