@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>email</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="email" transform="translate(1.000000, 1.000000)">
+            <g id="ins" stroke="#44424D">
+                <circle id="Oval-2-Copy" cx="15" cy="15" r="15"></circle>
+            </g>
+            <g transform="translate(7.000000, 9.000000)" fill="#44424D" fill-rule="nonzero">
+                <path d="M14.125,0 C15.158875,0 16,0.841125 16,1.875 L16,1.875 L16,9.875 C16,10.908875 15.158875,11.75 14.125,11.75 L14.125,11.75 L1.875,11.75 C0.841125,11.75 0,10.908875 0,9.875 L0,9.875 L0,1.875 C0,0.841125 0.841125,0 1.875,0 L1.875,0 Z M14.125,1.25 L1.875,1.25 C1.530375,1.25 1.25,1.530375 1.25,1.875 L1.25,1.875 L1.25,9.875 C1.25,10.219625 1.530375,10.5 1.875,10.5 L1.875,10.5 L14.125,10.5 C14.469625,10.5 14.75,10.219625 14.75,9.875 L14.75,9.875 L14.75,1.875 C14.75,1.530375 14.469625,1.25 14.125,1.25 L14.125,1.25 Z" id="Combined-Shape"></path>
+                <polygon id="Path" points="14.643875 0.77928125 8 5.7210625 1.356125 0.77928125 0.6100625 1.78225 8 7.2789375 15.3899375 1.78225"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
